@@ -137,7 +137,6 @@
     article {
         margin: 0;
         padding: 20px;
-        border: 1px solid red;
     }
 
     .post1 img {
@@ -158,13 +157,11 @@
 @media screen and (max-width:416px) {
     .body-container {
         margin: 0px;
-        border: 1px solid red;
     }
 
     article {
         margin: 0;
         padding: 0;
-        border: 1px solid red;
     }
 
     .texto {
