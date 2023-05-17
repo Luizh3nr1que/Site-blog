@@ -97,6 +97,30 @@
         text-align: left;
         margin-left: -5%;
     }
+
+    .texto {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .texto {
+        width: 300px;
+    }
+
+    .texo-body-right-container {
+        width: 400px !important;
+    }
+
+    .body-right-container-bottom p {
+        width: 400px;
+    }
+
+    .post1 img {
+        width: 400px;
+    }
+
+
 }
 
 @media screen and (max-width:500px) {
@@ -105,60 +129,53 @@
         gap: 10px;
     }
 
-    .texto h1 {
-        font-size: 18px;
+    body,
+    html {
+        overflow-x: hidden !important;
     }
 
-    .texto p {
-        font-size: 15px;
+    article {
+        margin: 0;
+        padding: 20px;
+        border: 1px solid red;
     }
 
-    .img img {
-        width: 250px;
+    .post1 img {
+        width: 350px;
     }
 
-    .body-container img {
-        width: 400px;
+    .body-container {
+        margin: 0px;
+        width: 420px;
     }
 
-    .backgroud {
-        width: 100%;
+
+    .body-right-container h1 {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .body-container {
+        margin: 0px;
+        border: 1px solid red;
     }
 
+    article {
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+    }
 
     .texto {
         width: 300px;
     }
 
-    .body-right-container .texto {
-        width: 300px;
+    .texo-body-right-container {
+        width: 300px !important;
     }
 
-    .body-right-container h1 {
-        width: 300px;
-    }
-
-    .body-right-container p {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .body-container img {
-        width: 330px;
-    }
-
-    .menu-mobile img {
-        width: 30px;
-    }
-
-    article {
-        margin-left: -18px;
-    }
-}
-
-@media screen and (max-width:325px) {
-    .body-container img {
-        width: 300px;
+    .body-right-container-bottom p {
+        width: 350px;
     }
 }

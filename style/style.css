@@ -80,9 +80,19 @@ input {
     cursor: pointer;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
 }
 
+.texto-principal {
+    width: 500px;
+}
+
+.texto-principal h1 {
+    color: #9e6dc2;
+}
+
+.texto-principal p {
+    color: var(--white);
+}
 
 .backgroud {
     height: 600px;
@@ -139,6 +149,7 @@ input {
 
 
 article {
+
     display: flex;
     padding: 50px;
 }
@@ -186,7 +197,7 @@ article {
 
 .body-right-container .texto {
     margin-top: 10px;
-    width: 500px;
+
 }
 
 .body-right-container-bottom {
