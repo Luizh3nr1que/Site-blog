@@ -1,0 +1,164 @@
+@media screen and (max-width:1100px) {
+
+    .body-right-container h1 {
+        width: 200px;
+    }
+
+    .body-right-container p {
+        width: 200px;
+    }
+
+    .backgroud h1 {
+        font-size: 20px;
+    }
+
+
+    .backgroud p {
+        font-size: 15px;
+    }
+
+    .img img {
+        width: 320px;
+    }
+
+    .body-container {
+        gap: 5px;
+    }
+
+    .body-fim-container {
+        gap: 5px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:787px) {
+    header a {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    .body-container {
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width:791px) {
+    .body-container {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .body-right-container h1 {
+        width: 100%;
+    }
+
+    .body-right-container p {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:680px) {
+    header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .mobile2 {
+        display: block !important;
+    }
+
+    .body-container {
+        text-align: left;
+        margin-left: -2%;
+    }
+
+}
+
+@media screen and (max-width:588px) {
+    .body-container {
+        text-align: left;
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .texto h1 {
+        font-size: 18px;
+    }
+
+    .texto p {
+        font-size: 15px;
+    }
+
+    .img img {
+        width: 250px;
+    }
+
+    .body-container img {
+        width: 400px;
+    }
+
+    .backgroud {
+        width: 100%;
+    }
+
+
+    .texto {
+        width: 300px;
+    }
+
+    .body-right-container .texto {
+        width: 300px;
+    }
+
+    .body-right-container h1 {
+        width: 300px;
+    }
+
+    .body-right-container p {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .body-container img {
+        width: 330px;
+    }
+
+    .menu-mobile img {
+        width: 30px;
+    }
+
+    article {
+        margin-left: -18px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .body-container img {
+        width: 300px;
+    }
+}
